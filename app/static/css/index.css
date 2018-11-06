@@ -1,11 +1,11 @@
 body,html {
     background: maroon;
-    width: 1800px;
+    
     border: 20px;
     margin: 20px;
     padding: 20px;
     border-style: groove; 
-    height: 100%;
+    height: 400vh;
 
 }
 h3 {
