@@ -1,4 +1,4 @@
-body,html {
+body {
     background: maroon;
     
     border: 20px;
@@ -14,4 +14,10 @@ h3 {
     font-family: cursive;
     font-stretch: inherit;
     font-size: 40px;
+}
+h1{
+    height: 100px;
+    color: maroon;
+    transition: width 2s;
+
 }
