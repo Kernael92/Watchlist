@@ -1,0 +1,17 @@
+body,html {
+    background: maroon;
+    width: 1800px;
+    border: 20px;
+    margin: 20px;
+    padding: 20px;
+    border-style: groove; 
+    height: 100%;
+
+}
+h3 {
+    color: pink;
+    font-style: oblique;
+    font-family: cursive;
+    font-stretch: inherit;
+    font-size: 40px;
+}

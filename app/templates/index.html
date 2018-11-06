@@ -12,16 +12,18 @@
         {% endif %}
     </head>
     <body>
-        <!--Style block-->
-        {% block styles %}
-            {{super()}}
-            <link rel="stylesheet" href="{{url_for('static',filename='css/index.css')}}">
-        {%  endblock %}
+
+        {% block styles%}
+        {{ super() }}
+
+         <link rel="stylesheet" href="{{ url_for('static', filename='css/index.css') }}">
+
+        {% endblock %}
         <!--Content block-->
         {%  block content %}
        
         <!--popular movie section-->
-        <h3 style="font-style: italic; font-size: 40px;">Popular Movies</h3>
+        <h3>Popular Movies</h3>
         <ul>
             {{ macro.displayMovieList(popular)}}
 
