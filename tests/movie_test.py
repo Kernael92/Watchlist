@@ -1,6 +1,6 @@
 import unittest
-from models import movie
-Movie = movie.Movie
+from app.models import Movie
+# Movie = movie.Movie
 
 class MovieTest(unittest.TestCase):
     '''
@@ -18,5 +18,4 @@ class MovieTest(unittest.TestCase):
     
          
 
-if __name__ =='__main__':
-    unittest.main()
+
